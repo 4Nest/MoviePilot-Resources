@@ -102,5 +102,26 @@
       "target": "app/helper",
       "version": "2.4.8"
     }
+  },
+  "neo_sites": {
+    "version": "1.0.0",
+    "files": {
+      "resources.v2/neo.sites.json": {
+        "target": "neo.sites.json",
+        "sha256": "95f05542fd3ea397da41eee2de45a08edd157ebe9d74e75ff3a28c38070e6d7b"
+      },
+      "resources.v2/adapters/parser/hdarea.py": {
+        "target": "adapters/parser/hdarea.py",
+        "sha256": "801904f0aa887a447a024a8260b49c7e0ee22fdcd4d1e39d8051f411e8185a4c"
+      },
+      "resources.v2/adapters/spider/hdarea.py": {
+        "target": "adapters/spider/hdarea.py",
+        "sha256": "5c92341dd2aa39b71aa58e30127a594f77e3a108fe4d3f2680adccda1f499e3a"
+      },
+      "resources.v2/adapters/test/hdarea.py": {
+        "target": "adapters/test/hdarea.py",
+        "sha256": "e672b6191e46229cae0b6707c84e6d73e7000e01614dae7f46600cfc4c8b174e"
+      }
+    }
   }
 }
