@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "supplements": {
     "colapt.com": {
       "id": "colapt",
@@ -30,11 +30,10 @@
       "url": "https://hdwing.org/",
       "domain": "https://hdwing.org/",
       "public": false,
-      "parser": "NexusPhp",
+      "parser": "HDWing",
       "schema": "NexusPhp",
       "language": "zh",
       "encoding": "UTF-8",
-      "alias_of": "hdchina.org",
       "search": {
         "paths": [
           {
@@ -286,14 +285,60 @@
               "*": 1
             }
           },
+          "freedate": {
+            "selector": "span.sp_state_placeholder",
+            "optional": true
+          },
           "hr": {
             "selector": "img.hitandrun"
           }
         }
       }
+    },
+    "piggo.me": {
+      "id": "piggo",
+      "name": "猪猪",
+      "url": "https://piggo.me/",
+      "domain": "https://piggo.me/",
+      "public": false,
+      "parser": "Piggo",
+      "schema": "Piggo",
+      "language": "zh",
+      "api_url": "https://api.piggo.me/v1/api"
+    },
+    "hxpt.org": {
+      "id": "hxpt",
+      "name": "好学",
+      "url": "https://www.hxpt.org/",
+      "domain": "https://www.hxpt.org/",
+      "public": false,
+      "parser": "FluxTorrent",
+      "schema": "FluxTorrent",
+      "language": "zh"
     }
   },
   "overrides": {
+    "piggo.me": {
+      "id": "piggo",
+      "name": "猪猪",
+      "url": "https://piggo.me/",
+      "domain": "https://piggo.me/",
+      "public": false,
+      "parser": "Piggo",
+      "schema": "Piggo",
+      "language": "zh",
+      "api_url": "https://api.piggo.me/v1/api"
+    },
+    "hxpt.org": {
+      "id": "hxpt",
+      "name": "好学",
+      "url": "https://www.hxpt.org/",
+      "domain": "https://www.hxpt.org/",
+      "public": false,
+      "parser": "FluxTorrent",
+      "schema": "FluxTorrent",
+      "language": "zh"
+    },
     "hdarea.club": {
       "id": "HDarea",
       "name": "高清视界",
@@ -433,6 +478,35 @@
       "test_func": "test_site",
       "domains": [
         "hdarea.club"
+      ]
+    },
+    "HDWing": {
+      "spider_module": "adapters/spider/hdwing.py",
+      "spider_class": "HDWingSpider",
+      "domains": [
+        "hdwing.org"
+      ]
+    },
+    "Piggo": {
+      "spider_module": "adapters/spider/piggo.py",
+      "spider_class": "PiggoSpider",
+      "parser_module": "adapters/parser/piggo.py",
+      "parser_class": "PiggoSiteUserInfo",
+      "test_module": "adapters/test/piggo.py",
+      "test_func": "test_site",
+      "domains": [
+        "piggo.me"
+      ]
+    },
+    "FluxTorrent": {
+      "spider_module": "adapters/spider/fluxtorrent.py",
+      "spider_class": "FluxTorrentSpider",
+      "parser_module": "adapters/parser/fluxtorrent.py",
+      "parser_class": "FluxTorrentSiteUserInfo",
+      "test_module": "adapters/test/fluxtorrent.py",
+      "test_func": "test_site",
+      "domains": [
+        "hxpt.org"
       ]
     }
   }

@@ -104,23 +104,51 @@
     }
   },
   "neo_sites": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "files": {
       "resources.v2/neo.sites.json": {
         "target": "neo.sites.json",
-        "sha256": "95f05542fd3ea397da41eee2de45a08edd157ebe9d74e75ff3a28c38070e6d7b"
+        "sha256": "db21c6f884350d70280089174406e9f2cfa2ab619a582716ec92de5f61410320"
+      },
+      "resources.v2/adapters/parser/fluxtorrent.py": {
+        "target": "adapters/parser/fluxtorrent.py",
+        "sha256": "fdd1cdfbbefd51d45dc23295e9c4ab4b77fce094457335dee01499dec03a3149"
       },
       "resources.v2/adapters/parser/hdarea.py": {
         "target": "adapters/parser/hdarea.py",
         "sha256": "801904f0aa887a447a024a8260b49c7e0ee22fdcd4d1e39d8051f411e8185a4c"
       },
+      "resources.v2/adapters/parser/piggo.py": {
+        "target": "adapters/parser/piggo.py",
+        "sha256": "83e8ff36a7978f3bcfa4234f5d5c708ecfbb8ee49d42f4f1d1d28c6fed254ec3"
+      },
+      "resources.v2/adapters/spider/fluxtorrent.py": {
+        "target": "adapters/spider/fluxtorrent.py",
+        "sha256": "2dd6c3f59af674f09b2227038a0437155d24c105fa56b215ece8ef988855642a"
+      },
       "resources.v2/adapters/spider/hdarea.py": {
         "target": "adapters/spider/hdarea.py",
         "sha256": "5c92341dd2aa39b71aa58e30127a594f77e3a108fe4d3f2680adccda1f499e3a"
       },
+      "resources.v2/adapters/spider/hdwing.py": {
+        "target": "adapters/spider/hdwing.py",
+        "sha256": "b893aefcd1c9e296a74eada343e926d9c2994702183c992cfc01d24963cb9e38"
+      },
+      "resources.v2/adapters/spider/piggo.py": {
+        "target": "adapters/spider/piggo.py",
+        "sha256": "230531a5f22d46c9eb01e43d413e1062ca39107cb981a5253958976e40930bcb"
+      },
+      "resources.v2/adapters/test/fluxtorrent.py": {
+        "target": "adapters/test/fluxtorrent.py",
+        "sha256": "56cfea294fef1968fcd814c235e8273623ae917b25275f2fa6cf034601256e9b"
+      },
       "resources.v2/adapters/test/hdarea.py": {
         "target": "adapters/test/hdarea.py",
         "sha256": "e672b6191e46229cae0b6707c84e6d73e7000e01614dae7f46600cfc4c8b174e"
+      },
+      "resources.v2/adapters/test/piggo.py": {
+        "target": "adapters/test/piggo.py",
+        "sha256": "b7454558eec5145a16becd80c0f352ed00e6a39c7a04fa628ceb92b42621ef28"
       }
     }
   }
