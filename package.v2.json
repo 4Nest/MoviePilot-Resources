@@ -104,11 +104,11 @@
     }
   },
   "neo_sites": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "files": {
       "resources.v2/neo.sites.json": {
         "target": "neo.sites.json",
-        "sha256": "db21c6f884350d70280089174406e9f2cfa2ab619a582716ec92de5f61410320"
+        "sha256": "318954efaca332fd19bb77631d349140722cf6bca4bc0df3921a75ec83c418c1"
       },
       "resources.v2/adapters/parser/fluxtorrent.py": {
         "target": "adapters/parser/fluxtorrent.py",

@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "supplements": {
     "colapt.com": {
       "id": "colapt",
@@ -34,6 +34,7 @@
       "schema": "NexusPhp",
       "language": "zh",
       "encoding": "UTF-8",
+      "alias_of": "hdchina.org",
       "search": {
         "paths": [
           {
