@@ -104,15 +104,15 @@
     }
   },
   "neo_sites": {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "files": {
       "resources.v2/neo.sites.json": {
         "target": "neo.sites.json",
-        "sha256": "318954efaca332fd19bb77631d349140722cf6bca4bc0df3921a75ec83c418c1"
+        "sha256": "fed80c28252694bd0f7edab00b38bca290a1f1b836ccb1afc99e23f6ebe05091"
       },
       "resources.v2/adapters/parser/fluxtorrent.py": {
         "target": "adapters/parser/fluxtorrent.py",
-        "sha256": "fdd1cdfbbefd51d45dc23295e9c4ab4b77fce094457335dee01499dec03a3149"
+        "sha256": "8dd5a86810588eb10760a57f0d4a8af72b0320cc355f5c73bb01cee4f6850175"
       },
       "resources.v2/adapters/parser/hdarea.py": {
         "target": "adapters/parser/hdarea.py",
@@ -124,7 +124,7 @@
       },
       "resources.v2/adapters/spider/fluxtorrent.py": {
         "target": "adapters/spider/fluxtorrent.py",
-        "sha256": "2dd6c3f59af674f09b2227038a0437155d24c105fa56b215ece8ef988855642a"
+        "sha256": "85402c8724023dbe901ee48fbe61b95581f9a88fb0ce173713d37eb320046d77"
       },
       "resources.v2/adapters/spider/hdarea.py": {
         "target": "adapters/spider/hdarea.py",
@@ -140,7 +140,7 @@
       },
       "resources.v2/adapters/test/fluxtorrent.py": {
         "target": "adapters/test/fluxtorrent.py",
-        "sha256": "56cfea294fef1968fcd814c235e8273623ae917b25275f2fa6cf034601256e9b"
+        "sha256": "2630cb28c440d2d44b7a4d80556e549c13c27f5980d5007a0394f55791e898b7"
       },
       "resources.v2/adapters/test/hdarea.py": {
         "target": "adapters/test/hdarea.py",
